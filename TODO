@@ -1,0 +1,5 @@
+* Test presence of the `grunt` CLI and fail with a clear error if missing
+* Parse status (success/errors, which and how many files/tests)
+  and report back to sbt [e.g. jshint, jasmine]
+* Accept a list of files to monitor, only run tasks when files have
+  changed [e.g. requirejs]
